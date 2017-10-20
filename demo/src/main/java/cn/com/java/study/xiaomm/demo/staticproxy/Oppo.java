@@ -1,4 +1,4 @@
-package cn.com.java.study.xiaomm.demo.staticProxy;
+package cn.com.java.study.xiaomm.demo.staticproxy;
 
 /**
  * 手机生产商
