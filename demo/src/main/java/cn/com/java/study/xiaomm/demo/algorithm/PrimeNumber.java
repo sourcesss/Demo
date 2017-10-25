@@ -2,6 +2,12 @@ package cn.com.java.study.xiaomm.demo.algorithm;
 
 import java.util.Arrays;
 
+/**
+ * 求数组中未出现的最小质数
+ * 
+ * @author xiaomm
+ *
+ */
 public class PrimeNumber {
 
 	private int[] arr;
@@ -28,7 +34,7 @@ public class PrimeNumber {
 			return false;
 		}
 		for (int i : arr) {
-			if(i>value){
+			if (i > value) {
 				break;
 			}
 			if (i == value) {
