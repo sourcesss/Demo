@@ -8,15 +8,16 @@ package cn.com.java.study.xiaomm.demo.algorithm;
  * @author xiaomm
  *
  */
-public class Heap {
+public class HeapSort implements SortMethod {
 
 	/**
 	 * 大顶堆的创建
+	 * 从第一个非叶子节点开始，比较它与左右两子节点的大小，交换顺序，把最大的放在根节点上
 	 * 
 	 * @param arr
 	 * @param length
 	 */
-	public void buildHeap(int[] arr, int length) {
+	private void buildHeap(int[] arr, int length) {
 		for (int i = length / 2; i >= 1; i--) {
 			int temp = 0;
 			if (arr[i - 1] < arr[2 * i - 1]) {

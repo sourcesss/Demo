@@ -9,7 +9,7 @@ package cn.com.java.study.xiaomm.demo.algorithm;
  * @author xiaomm
  *
  */
-public class StraightInsertionSort {
+public class StraightInsertionSort implements SortMethod{
 
 	public int[] sort(int[] arr) {
 		for(int i=1;i<arr.length;i++) {

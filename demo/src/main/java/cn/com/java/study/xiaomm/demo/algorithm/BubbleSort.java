@@ -9,7 +9,7 @@ package cn.com.java.study.xiaomm.demo.algorithm;
  * @author xiaomm
  *
  */
-public class BubbleSort {
+public class BubbleSort implements SortMethod {
 
 	public int[] sort(int[] arr) {
 		for(int i=arr.length-1;i>0;i--) {
