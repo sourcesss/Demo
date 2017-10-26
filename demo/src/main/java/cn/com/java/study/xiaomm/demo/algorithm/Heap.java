@@ -1,7 +1,9 @@
 package cn.com.java.study.xiaomm.demo.algorithm;
 
 /**
- * 堆算法
+ * 堆排序
+ * 思想：对一个数组构建堆，交换顶元素（R0）和堆中最后一个元素
+ * 然后继续把除去最后一个元素的数组再作成堆，再交换，直到堆只剩下一个元素
  * 
  * @author xiaomm
  *
